@@ -51,6 +51,7 @@ namespace ProyectoFinal.Models
     {
         protected override void Seed(GymContext context)
         {
+            //test
             #region Clients
             var passwordSalt1 = PasswordUtilities.CreateSalt(16);
             var password1 = PasswordUtilities.GenerateSHA256Hash("12345", passwordSalt1);
